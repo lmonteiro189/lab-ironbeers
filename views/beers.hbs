@@ -1,0 +1,13 @@
+<div class="content">
+    {{#each beer}}
+    <div class="beers" href="/beers">
+        <img src="{{ image_url }}" />
+        <div>
+            <strong>{{ name }}</strong>
+            <small>{{ tagline }}</small>
+            <br>
+            <small>{{ description }}</small>
+        </div>
+    </div>
+    {{/each}}
+</div>
